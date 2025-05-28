@@ -11,6 +11,12 @@
     display: flex;
 }
 
+@media screen and (max-width: 767px){
+    .thisWeekContainer p{
+        font-size: 8px;
+    }
+}
+
 @media screen and (max-width: 1024px){
 .DashContainer{
     flex-direction: column;
@@ -45,7 +51,7 @@
 }
 
 .thisWeekContainer p{
-    font-size: 12px;
+    font-size: 10px;
     
 }
 
@@ -58,7 +64,7 @@
 }
 
 .DetailsContainer p{
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .OrgansContainer{
@@ -73,7 +79,6 @@
 .AnatomyImg{
     height: 290px;
     width: 100%;
-    min-width: 130px;
     mix-blend-mode: multiply;
 }
 
@@ -85,21 +90,23 @@
     border-radius: 20px;
     position: relative;
     padding: 10px;
-    
-}
+    }
 
 .label{
     position: absolute;
     display: flex;
     align-items: center;
-   
     justify-content: center;
     padding:4px;
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-
+@media screen and (max-width: 767px){
+    .heart-label{
+        font-size: 9px;
+    }
+}
 
 
 .heart-label{

@@ -55,6 +55,24 @@ margin-bottom: 10px;
     padding-left: 5px;
 }
 
+@media screen and (max-width: 767px){
+    .sideBarItems li {
+        font-size: 10px;
+    }
+    .sideBarItemsTwo li{
+        font-size: 10px;
+    }
+    .generalTopic{
+        font-size: 12px;
+    }
+    .toolsTopic{
+        font-size: 12px;
+    }
+    .settingsDiv{
+        font-size: 10px;
+    }
+}
+
 .sideBarContainer{
     background-color: #f4f7fe;
     border-top-left-radius: 30px;
@@ -63,7 +81,7 @@ margin-bottom: 10px;
     display: flex;
     flex-direction: column;
     width: 18%;
-    min-width: 115px;
+    min-width: 90px;
 }
 
 .settingsDiv{

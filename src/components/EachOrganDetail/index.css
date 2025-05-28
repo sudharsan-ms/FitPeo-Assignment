@@ -20,7 +20,10 @@
 
 @media screen and (max-width: 767px){
     .ImgAndTitle img{
-        height: 30px;
+        height: 20px;
+    }
+    .ImgAndTitle p{
+        font-size: 10px;
     }
 }
 .EachDate{

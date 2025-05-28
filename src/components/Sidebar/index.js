@@ -12,7 +12,7 @@ const Sidebar = () => {
   return (
     <div className="sideBarContainer">
       <header className="HealthCareHeader">
-        <h1>Health<span>Care</span></h1>
+        <h1>Health<span>care</span></h1>
       </header>
       <div>
         <p className="generalTopic">General</p>
