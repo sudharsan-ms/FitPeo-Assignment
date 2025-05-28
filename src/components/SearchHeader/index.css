@@ -1,0 +1,21 @@
+.SearchHeaderContainer{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border: 1px solid #b0b0b0;
+    border-radius: 30px;
+    justify-content: space-between;
+    padding: 10px;
+    min-width: 100px;
+}
+
+.SearchHeaderContainer div{
+    display:  flex;
+    align-items: center;
+    
+}
+
+.SearchHeaderContainer div input{
+    border: none;
+    outline: none;
+}

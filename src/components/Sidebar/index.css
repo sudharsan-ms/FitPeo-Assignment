@@ -1,0 +1,81 @@
+.sideBarItems li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #b0b0b0;
+    font-weight: 400;
+}
+.sideBarItemsTwo li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: #b0b0b0;
+    font-weight: 400;
+}
+#DashBoardColor{
+    color: #3d3fbb;
+    font-weight: 500;
+}
+.generalTopic{
+  color:#b0b0b0;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.HealthCareHeader{
+    color:#3d3fbb;
+    font-size: 13px;
+}
+@media screen and (max-width: 767px){
+    .HealthCareHeader{
+        font-size: 10px;
+    }
+}
+
+.HealthCareHeader span{
+    color: #2b2b2b;
+}
+.settingsDiv{
+    color: #b0b0b0;
+}
+
+.toolsTopic{
+color: #b0b0b0;
+margin-left: 10px;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.sideBarItems li p{
+    padding-left: 5px;
+}
+.sideBarItemsTwo li p{
+    padding-left: 5px;
+}
+
+.sideBarContainer{
+    background-color: #f4f7fe;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    min-width: 115px;
+}
+
+.settingsDiv{
+   margin-top: auto;
+   display: flex;
+   align-items: center;
+}
+.settingsDiv p{
+    padding-left: 5px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}

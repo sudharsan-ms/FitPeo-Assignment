@@ -1,0 +1,59 @@
+.EachOrganDetailContainer{
+    background-color: #f4f7f4;
+    height: 100px;
+    max-width: 100%;
+    margin: 20px;
+    border-radius: 20px;
+   box-sizing: border-box;
+   padding: 10px;
+}
+
+.ImgAndTitle{
+    display: flex;
+    align-items: center;
+} 
+
+.ImgAndTitle img{
+    height: 40px;
+    mix-blend-mode: multiply;
+}
+
+@media screen and (max-width: 767px){
+    .ImgAndTitle img{
+        height: 30px;
+    }
+}
+.EachDate{
+    font-size: 10px;
+}
+
+.MainLine{
+    width: 100%;
+    background-color: #b0b0b0;
+    height: 8px;
+    position: relative;
+    border-radius: 5px;
+    margin-top: 9px;
+    
+}
+
+.Insidebad{
+    position: absolute;
+    width: 60%;
+    height: 8px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.Insidegood{
+    position: absolute;
+    width: 60%;
+    height: 8px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.EachOrganDetailContainer p{
+    color: #b0b0b0;
+    padding: 6px;
+}

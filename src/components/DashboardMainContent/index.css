@@ -1,0 +1,451 @@
+.DashMainContentContainer{
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.DashContainer{
+    width: 100%;
+    min-width: 50%;
+    display: flex;
+}
+
+@media screen and (max-width: 1024px){
+.DashContainer{
+    flex-direction: column;
+   
+}
+.DashMainContentContainer{
+    width: 100%;
+}
+.CalendarScheduleContainer{
+    width: 100%;
+}
+
+}
+
+.DashAndWeekContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.DashAndWeekContainer h1{
+    font-size: 20px;
+    color: #2b2b2b;
+}
+
+.thisWeekContainer{
+    display: flex;
+    align-items: center; 
+    color: #3d3fbb;
+}
+
+.thisWeekContainer p{
+    font-size: 12px;
+    
+}
+
+.DetailsContainer{
+    display: flex;
+    align-items: center;
+    color: #3d3fbb;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.DetailsContainer p{
+    font-size: 12px;
+}
+
+.OrgansContainer{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-top: 15px;
+    height: 60vh;
+    align-items: center;
+}
+
+.AnatomyImg{
+    height: 290px;
+    width: 100%;
+    min-width: 130px;
+    mix-blend-mode: multiply;
+}
+
+.AnatomyContainer{
+    background-color: #f4f7f4;
+    width: 40%;
+    height: 300px;
+    text-align: center;
+    border-radius: 20px;
+    position: relative;
+    padding: 10px;
+    
+}
+
+.label{
+    position: absolute;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    padding:4px;
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+
+
+.heart-label{
+    top: 20%;
+    left: 60%;
+    background-color: #2d6cdf;
+    color: #ffffff;
+    border: 1px solid darkblue;
+    font-weight: 500;
+    font-size: 12px;
+    width: 50%;
+}
+.leg-label{
+    top: 60%;
+     right: 50%;
+     font-size: 12px;
+    background-color: #00bcd4;
+    width: 50%;
+    color: #2b2b2b;
+    border: 1px solid grey;
+    font-weight: 500;
+}
+.label span{
+    margin-right: 4px;
+}
+
+.OrgansListContainer{
+    list-style: none;
+    margin-left: 20px;
+    width: 50%;
+    min-width: 30%;
+}
+
+.ActivityFeed{
+    width: 90%;
+    max-width: 700px;
+     background-color: #f4f7f4;
+     border-radius: 15px;
+     padding:15px;
+}
+
+.ActivityHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ActivityHeader h1{
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+.ActivityHeader span{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+.chart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.DayCol{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.DayCol span{
+    font-size: 12px;
+    color: #b0b0b0;
+    margin-top: 5px;
+}
+
+.bars{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90px;
+    gap: 4px;
+}
+.bar{
+    width: 6px;
+    max-width: 5px;
+
+    border-radius: 3px;
+}
+.bar-0{
+    background-color: #00cfff;
+}
+.bar-1{
+    background-color: #aab4c3;
+}
+.bar-2{
+    background-color: #3f3d56;
+}
+
+.UserContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+.profileImg{
+    background-color: #00cfff;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+.AddBtn{
+    background-color: #3d3fbb;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.CalendarScheduleContainer{
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px){
+    .CalendarScheduleContainer{
+        width: 50%;
+    }
+}
+
+.MonthContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.MonthContainer h1{
+    font-size: 20px;
+    color: #2b2b2b;
+}
+.CalenderContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+.EachDate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.Day{
+    font-size: 15px;
+    color: #2b2b2b;
+    margin-bottom: 5px;
+}
+
+.Time{
+    font-size: 15px;
+    color: #2b2b2b;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-weight: 500;
+    
+}
+
+.EachDateUnique{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #b0b0b0;
+}
+
+
+.uniqueDay{
+     font-size: 15px;
+     margin-bottom: 5px;
+}
+
+.EachDateUnique p{
+     font-size: 15px;
+   
+    margin-top: 9px;
+    margin-bottom: 9px;
+    font-weight: 500;
+}
+.uniqueDate{
+    font-size: 20px;
+}
+
+.Appoinments{
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+    gap: 10px;
+    margin: 10px;
+}
+
+.DentistContainer{
+ background-color: #3d3fbb;
+ color: white;
+ padding: 15px;
+ border-radius: 15px;
+ 
+ 
+
+}
+
+.DentistHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DetailPara{
+    font-size: 13px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+}
+
+@media screen and (max-width: 767px){
+    .DetailPara{
+    font-size: 10px;
+    }
+
+    .PhysioHeader{
+        font-size: 13px;
+    }
+    .HealthCheckHeader{
+        font-size: 13px;
+    }
+    .EyeHeader{
+        font-size: 11px;
+    }
+    .HeartHeader{
+        font-size: 13px;
+    }
+    .NeuroHeader{
+        font-size: 13px;
+    }
+    
+}
+
+.PhysioHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.PhysioContainer{
+    background-color: #aab4c3;
+     color: #2b2b2b;
+ padding: 15px;
+ border-radius: 15px;
+ 
+}
+.PhysioHeader p{
+    font-weight: 500;
+}
+
+.UpcomingScheduleContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.UpcomingScheduleContainer h1{
+    color: #2b2b2b;
+    font-size: 20px;
+    margin-bottom: 8px;
+
+}
+.ThursdayContainer{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 6px;
+}
+.HealthCheckupContainer{
+    background-color: #aab4c3;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+    color: #2b2b2b;
+    
+}
+.HealthCheckHeader{
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.EyeContainer{
+    background-color: #aab4c3;
+      padding: 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+    color: #2b2b2b;
+    
+}
+.EyeHeader{
+    display: flex; 
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+}
+.OnDay{
+    color: #b0b0b0;
+}
+
+.SaturdayContainer{
+    display: grid;
+    grid-template-columns: 40%  40%;
+    gap: 10px;
+} 
+
+.HeartContainer{
+    background-color: #aab4c3;
+      padding: 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+    color: #2b2b2b;
+   
+}
+
+.HeartHeader{
+    display: flex ;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NeuroContainer{
+    background-color: #aab4c3;
+      padding: 15px;
+    border-radius: 15px;
+    margin-top: 5px;
+    color: #2b2b2b;
+    
+}
+.NeuroHeader{
+    display: flex ;
+    font-weight: 500;
+    align-items: center;
+    justify-content: space-between;
+}

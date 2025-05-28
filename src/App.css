@@ -1,0 +1,18 @@
+.MainContainer{
+    background-color: #e5f0ff;
+    display: flex;
+    min-height: 100vh;
+    padding:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContentContainer{
+   
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 10px;;
+}
